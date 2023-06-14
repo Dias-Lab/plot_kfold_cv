@@ -10,7 +10,7 @@ from itertools import cycle
 from sklearn import svm
 import numpy as np
 
-def run_cv_and_plot_auc(name, classifier,cv, X, y):
+def run_cv_and_plot_auc(name, classifier,cv, X, y, plot_file="plot.png"):
 
     interp_mean_fpr = np.linspace(0, 1, 100)
 
@@ -111,3 +111,4 @@ def run_cv_and_plot_auc(name, classifier,cv, X, y):
         ax.set_ylabel('True Positive Rate (Sensitivity)') 
         print("Mean AUC score across all k folds:", mean_auc, "std. dev.:", std_auc)
     plt.show()
+    plt.savefig(plot_file)
