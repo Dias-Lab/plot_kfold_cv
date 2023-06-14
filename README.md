@@ -8,15 +8,20 @@ This is a small plotting module that will run k-fold cross-validations, calculat
 - numpy
 - matplotlib
 
+
 ## Getting started
 
-Before using this module you have to download and copy the file *plot_kfold_cv.py* to the same location where is your own python script that will use this module.
+If you are in a jupyter notebook or google colab, you can download the script directly from your notebook like this:
+
 
 ## Example usage in your script (assuming you use jupyter notebooks or google collab)
 
 ```
 #NOTE THIS CODE IS JUST AN EXAMPLE IT WILL NOT RUN ALONE
 #YOU HAVE TO LOAD YOUR DATA FIRST AND FOLLOW THE INSTRUCTIONS IN THE COMMENTS BELOW
+
+#download the module (if in jupyter notebook or google colab, run the line below to download it
+!wget -N https://github.com/Dias-Lab/plot_kfold_cv/raw/main/plot_kfold_cv.py
 
 #load the module
 from plot_kfold_cv import run_cv_and_plot_auc
