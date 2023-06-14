@@ -2,12 +2,17 @@
 
 This is a small plotting module that will run k-fold cross-validations, calculate AUC, specificity, and sensitivity, and make AUROC plots.
 
-## Download
+## Prerequisites
 
-Before using this module you have to download it to the same location where is your own python script that will use this module.
+- sklearn
+- numpy
+- matplotlib
 
+## Getting started
 
-## Example usage in your script (assuming you use jupyter notebooks or google collab
+Before using this module you have to download and copy the file *plot_kfold_cv.py* to the same location where is your own python script that will use this module.
+
+## Example usage in your script (assuming you use jupyter notebooks or google collab)
 
 ```
 #NOTE THIS CODE IS JUST AN EXAMPLE IT WILL NOT RUN ALONE
