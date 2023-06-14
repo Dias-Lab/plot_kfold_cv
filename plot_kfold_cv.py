@@ -110,5 +110,5 @@ def run_cv_and_plot_auc(name, classifier,cv, X, y, plot_file="plot.png"):
         ax.set_xlabel('False Positive Rate (Specificity)')
         ax.set_ylabel('True Positive Rate (Sensitivity)') 
         print("Mean AUC score across all k folds:", mean_auc, "std. dev.:", std_auc)
+    plt.savefig(plot_file) 
     plt.show()
-    plt.savefig(plot_file)
