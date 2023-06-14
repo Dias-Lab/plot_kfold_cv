@@ -9,11 +9,6 @@ This is a small plotting module that will run k-fold cross-validations, calculat
 - matplotlib
 
 
-## Getting started
-
-If you are in a jupyter notebook or google colab, you can download the script directly from your notebook like this:
-
-
 ## Example usage in your script (assuming you use jupyter notebooks or google collab)
 
 ```
