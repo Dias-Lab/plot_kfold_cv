@@ -15,7 +15,7 @@ This is a small plotting module that will run k-fold cross-validations, calculat
 #NOTE THIS CODE IS JUST AN EXAMPLE IT WILL NOT RUN ALONE
 #YOU HAVE TO LOAD YOUR DATA FIRST AND FOLLOW THE INSTRUCTIONS IN THE COMMENTS BELOW
 
-#download the module (if in jupyter notebook or google colab, run the line below to download it
+#download the module
 !wget -N https://github.com/Dias-Lab/plot_kfold_cv/raw/main/plot_kfold_cv.py
 
 #load the module
